@@ -1,0 +1,56 @@
+{
+  "name": "create-posthtml",
+  "version": "0.0.0",
+  "description": "Add PostHTML to your project",
+  "repository": "posthtml/create-posthtml",
+  "homepage": "https://posthtml/create-posthtml#readme",
+  "bugs": "posthtml/create-posthtml/issues",
+  "readme": "posthtml/create-posthtml/readme",
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md && git commit -m \"build: update changelog\"",
+    "test": "xo"
+  },
+  "keywords": [
+    "init",
+    "initialize",
+    "add",
+    "create",
+    "setup",
+    "generate",
+    "generator",
+    "scaffold",
+    "posthtml"
+  ],
+  "author": {
+    "name": "Ivan Demidov",
+    "email": "Scrum@list.ru",
+    "url": "https://twitter.com/Scrum_"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^4.0.3",
+    "path-exists": "^4.0.0",
+    "read-pkg-up": "^7.0.1",
+    "write-pkg": "^4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-angular": "^11.0.0",
+    "conventional-changelog-cli": "^2.0.35",
+    "husky": "^4.2.5",
+    "xo": "^0.33.1"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/posthtml"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/posthtml"
+  }
+}

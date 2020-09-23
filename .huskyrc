@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "commit-msg": "commitlint --extends=@commitlint/config-angular -e"
+  }
+}
