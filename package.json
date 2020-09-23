@@ -1,6 +1,6 @@
 {
   "name": "create-posthtml",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Add PostHTML to your project",
   "repository": "posthtml/create-posthtml",
   "homepage": "https://posthtml/create-posthtml#readme",
