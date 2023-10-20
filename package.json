@@ -1,11 +1,11 @@
 {
-  "name": "create-posthtml",
-  "version": "0.0.1",
-  "description": "Add PostHTML to your project",
-  "repository": "posthtml/create-posthtml",
-  "homepage": "https://posthtml/create-posthtml#readme",
-  "bugs": "posthtml/create-posthtml/issues",
-  "readme": "posthtml/create-posthtml/readme",
+  "name": "create-posthtml-ts",
+  "version": "0.0.0",
+  "description": "Create you PostHTML project on TypeScript",
+  "repository": "posthtml/create-posthtml-ts",
+  "homepage": "https://posthtml/create-posthtml-ts#readme",
+  "bugs": "posthtml/create-posthtml-ts/issues",
+  "readme": "posthtml/create-posthtml-ts/readme",
   "bin": "cli.js",
   "files": [
     "index.js",
@@ -24,7 +24,8 @@
     "generate",
     "generator",
     "scaffold",
-    "posthtml"
+    "PostHTML",
+    "TypeScript"
   ],
   "author": {
     "name": "Ivan Demidov",
