@@ -1,6 +1,6 @@
 {
   "name": "create-posthtml-ts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create you PostHTML project on TypeScript",
   "repository": "posthtml/create-posthtml-ts",
   "homepage": "https://posthtml/create-posthtml-ts#readme",
